@@ -26,6 +26,13 @@ public class lang {
     public static String upperCase(String string){
         return string.toUpperCase();
     }
+
+    /**
+     * Returns the longest string in the provided list of strings.
+     *
+     * @param strings A list of strings to evaluate.
+     * @return The longest string in the list. If the list is empty, returns null.
+     */
     public static String longestString(List<String> strings){
         String long_string = "";
         
