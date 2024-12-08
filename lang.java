@@ -1,6 +1,12 @@
 import java.util.*;
 
 public class lang {
+    /**
+     * Returns all even numbers in the given list.
+     *
+     * @param nums A list of integers to filter.
+     * @return A list containing only the even numbers.
+     */
     public static List<Integer> evenNumbers(List<Integer> nums){
         List<Integer> even_nums = new ArrayList<>();
         for(int num: nums){
