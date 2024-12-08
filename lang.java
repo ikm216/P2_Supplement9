@@ -16,4 +16,7 @@ public class lang {
         }
         return even_nums;
     }
+    public static String upperCase(String string){
+        return string.toUpperCase();
+    }
 }
