@@ -9,4 +9,11 @@ public class test{
         List<Integer> test = Arrays.asList(2, 4, 8);
         Assert.assertEquals(test, nums);
     }
+    @Test
+    public void test_should_return_uppercase_string(){
+        String string = "Chicken On Me";
+        string = lang.upperCase(string);
+        String test = "CHICKEN ON ME";
+        Assert.assertEquals(string, test);
+    }
 }
