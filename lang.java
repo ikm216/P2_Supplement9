@@ -16,6 +16,13 @@ public class lang {
         }
         return even_nums;
     }
+
+    /**
+     * Converts all characters in a string to uppercase.
+     *
+     * @param string The string to convert.
+     * @return A string with all uppercase characters.
+     */
     public static String upperCase(String string){
         return string.toUpperCase();
     }
