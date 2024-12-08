@@ -18,7 +18,7 @@ public class test{
     }
     @Test
     public void test_should_return_longest_string(){
-        List<String> strings = Arrays.asList("Chicken, Coop, Nugget");
+        List<String> strings = Arrays.asList("Chicken" , "Coop", "Nugget");
         String long_string = lang.longestString(strings);
         Assert.assertEquals("Chicken", long_string);
     }
