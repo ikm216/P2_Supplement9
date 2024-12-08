@@ -26,14 +26,14 @@ public class lang {
     public static String upperCase(String string){
         return string.toUpperCase();
     }
-    // public static String longestString(List<String> strings){
-    //     String long_string = "";
+    public static String longestString(List<String> strings){
+        String long_string = "";
         
-    //     for(String string: strings){
-    //         if(string.length() > long_string.length()){
-    //             long_string = string;
-    //         }
-    //     }
-    //     return long_string;
-    // }
+        for(String string: strings){
+            if(string.length() > long_string.length()){
+                long_string = string;
+            }
+        }
+        return long_string;
+    }
 }
